@@ -24,6 +24,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
         self.searchTextField.delegate = self
     }
     
+    @IBAction func stopEditingTapGesture(_ sender: UITapGestureRecognizer) {
+        view.endEditing(true)
+    }
+    
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         searchButtonClicked(searchButton)
         return true
