@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF0A0FC4287D71A400DF7041 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0A0FC3287D71A400DF7041 /* LaunchViewController.swift */; };
 		BF65E4BC287BA19100E3D2FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF65E4BB287BA19100E3D2FF /* AppDelegate.swift */; };
 		BF65E4BE287BA19100E3D2FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF65E4BD287BA19100E3D2FF /* SceneDelegate.swift */; };
 		BF65E4C0287BA19100E3D2FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF65E4BF287BA19100E3D2FF /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF0A0FC3287D71A400DF7041 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		BF65E4B8287BA19100E3D2FF /* newlyCoinedWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newlyCoinedWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF65E4BB287BA19100E3D2FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF65E4BD287BA19100E3D2FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				BF65E4C1287BA19100E3D2FF /* Main.storyboard */,
 				BF65E4C4287BA19200E3D2FF /* Assets.xcassets */,
 				BF65E4C6287BA19200E3D2FF /* LaunchScreen.storyboard */,
+				BF0A0FC3287D71A400DF7041 /* LaunchViewController.swift */,
 				BF65E4C9287BA19200E3D2FF /* Info.plist */,
 			);
 			path = newlyCoinedWord;
@@ -141,6 +144,7 @@
 				BF65E4C0287BA19100E3D2FF /* ViewController.swift in Sources */,
 				BF65E4BC287BA19100E3D2FF /* AppDelegate.swift in Sources */,
 				BF65E4BE287BA19100E3D2FF /* SceneDelegate.swift in Sources */,
+				BF0A0FC4287D71A400DF7041 /* LaunchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
