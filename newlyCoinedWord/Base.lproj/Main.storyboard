@@ -62,19 +62,62 @@
                                     <constraint firstAttribute="trailing" secondItem="kvT-lX-8yK" secondAttribute="trailing" id="y1b-Kd-fzb"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="150" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T3d-Yp-IAQ">
+                                <rect key="frame" x="5" y="115" width="67" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="0vn-kL-Js2"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K3J-Yp-d5j">
+                                <rect key="frame" x="77" y="115" width="67" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="yHn-Gi-LmI"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="350" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sfc-Ac-mRX">
+                                <rect key="frame" x="149" y="115" width="67" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="cpq-EP-LgD"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="450" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uUe-2g-6ub">
+                                <rect key="frame" x="221" y="115" width="67" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="0hr-Ot-tqH"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="uUe-2g-6ub" firstAttribute="leading" secondItem="Sfc-Ac-mRX" secondAttribute="trailing" constant="5" id="2sG-dd-5BF"/>
+                            <constraint firstItem="T3d-Yp-IAQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="7Ap-ye-jpi"/>
                             <constraint firstItem="8pm-Ps-MWu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AGI-oa-R7M"/>
                             <constraint firstItem="Y6K-WA-JU8" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.065" id="E7V-J9-BLt"/>
+                            <constraint firstItem="uUe-2g-6ub" firstAttribute="top" secondItem="Y6K-WA-JU8" secondAttribute="bottom" constant="8" id="Ey6-mj-Dx9"/>
+                            <constraint firstItem="K3J-Yp-d5j" firstAttribute="top" secondItem="Y6K-WA-JU8" secondAttribute="bottom" constant="8" id="FOr-5u-TdS"/>
                             <constraint firstItem="FR4-oa-RB6" firstAttribute="centerX" secondItem="8pm-Ps-MWu" secondAttribute="centerX" id="N4h-mX-QdP"/>
+                            <constraint firstItem="T3d-Yp-IAQ" firstAttribute="top" secondItem="Y6K-WA-JU8" secondAttribute="bottom" constant="8" id="Nax-70-BIQ"/>
+                            <constraint firstItem="Sfc-Ac-mRX" firstAttribute="height" secondItem="T3d-Yp-IAQ" secondAttribute="height" id="PDa-U8-dZU"/>
                             <constraint firstItem="FR4-oa-RB6" firstAttribute="centerY" secondItem="8pm-Ps-MWu" secondAttribute="centerY" id="TR8-Ao-8P4"/>
                             <constraint firstItem="8pm-Ps-MWu" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Txg-Vx-HWp"/>
+                            <constraint firstItem="Sfc-Ac-mRX" firstAttribute="top" secondItem="Y6K-WA-JU8" secondAttribute="bottom" constant="8" id="VkF-k8-wH6"/>
                             <constraint firstItem="Y6K-WA-JU8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="WJY-rK-C4I"/>
                             <constraint firstAttribute="trailing" secondItem="Y6K-WA-JU8" secondAttribute="trailing" constant="5" id="YSk-xm-mg3"/>
                             <constraint firstItem="Y6K-WA-JU8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="5" id="cKv-he-XJj"/>
+                            <constraint firstItem="K3J-Yp-d5j" firstAttribute="height" secondItem="T3d-Yp-IAQ" secondAttribute="height" id="eWt-Us-WLc"/>
+                            <constraint firstItem="K3J-Yp-d5j" firstAttribute="leading" secondItem="T3d-Yp-IAQ" secondAttribute="trailing" constant="5" id="lgl-pm-0S0"/>
                             <constraint firstItem="8pm-Ps-MWu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mBH-1e-2fw"/>
+                            <constraint firstItem="uUe-2g-6ub" firstAttribute="height" secondItem="T3d-Yp-IAQ" secondAttribute="height" id="pqh-cK-Rfo"/>
+                            <constraint firstItem="Sfc-Ac-mRX" firstAttribute="leading" secondItem="K3J-Yp-d5j" secondAttribute="trailing" constant="5" id="uCx-FE-q5I"/>
                         </constraints>
                     </view>
                 </viewController>
