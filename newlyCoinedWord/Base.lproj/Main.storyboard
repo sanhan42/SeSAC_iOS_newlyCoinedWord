@@ -20,8 +20,8 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="8pm-Ps-MWu">
                                 <rect key="frame" x="0.0" y="298" width="414" height="300"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FR4-oa-RB6">
-                                <rect key="frame" x="183" y="436" width="48" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FR4-oa-RB6">
+                                <rect key="frame" x="207" y="448" width="0.0" height="0.0"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="260" id="O6E-sj-a3I"/>
                                 </constraints>
@@ -30,7 +30,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y6K-WA-JU8">
-                                <rect key="frame" x="5" y="49" width="404" height="58"/>
+                                <rect key="frame" x="5" y="59" width="404" height="58"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kvT-lX-8yK">
                                         <rect key="frame" x="346" y="0.0" width="58" height="58"/>
@@ -45,7 +45,7 @@
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                     </button>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="fgfgdsfg" borderStyle="bezel" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hZc-n0-JrG">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hZc-n0-JrG">
                                         <rect key="frame" x="0.0" y="0.0" width="346" height="58"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -63,36 +63,44 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="150" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T3d-Yp-IAQ">
-                                <rect key="frame" x="5" y="115" width="67" height="31"/>
+                                <rect key="frame" x="5" y="125" width="67" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="0vn-kL-Js2"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K3J-Yp-d5j">
-                                <rect key="frame" x="77" y="115" width="67" height="31"/>
+                                <rect key="frame" x="77" y="125" width="67" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="yHn-Gi-LmI"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="350" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sfc-Ac-mRX">
-                                <rect key="frame" x="149" y="115" width="67" height="31"/>
+                                <rect key="frame" x="149" y="125" width="67" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="cpq-EP-LgD"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="450" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uUe-2g-6ub">
-                                <rect key="frame" x="221" y="115" width="67" height="31"/>
+                                <rect key="frame" x="221" y="125" width="67" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="0hr-Ot-tqH"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -110,7 +118,7 @@
                             <constraint firstItem="FR4-oa-RB6" firstAttribute="centerY" secondItem="8pm-Ps-MWu" secondAttribute="centerY" id="TR8-Ao-8P4"/>
                             <constraint firstItem="8pm-Ps-MWu" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Txg-Vx-HWp"/>
                             <constraint firstItem="Sfc-Ac-mRX" firstAttribute="top" secondItem="Y6K-WA-JU8" secondAttribute="bottom" constant="8" id="VkF-k8-wH6"/>
-                            <constraint firstItem="Y6K-WA-JU8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="WJY-rK-C4I"/>
+                            <constraint firstItem="Y6K-WA-JU8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="WJY-rK-C4I"/>
                             <constraint firstAttribute="trailing" secondItem="Y6K-WA-JU8" secondAttribute="trailing" constant="5" id="YSk-xm-mg3"/>
                             <constraint firstItem="Y6K-WA-JU8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="5" id="cKv-he-XJj"/>
                             <constraint firstItem="K3J-Yp-d5j" firstAttribute="height" secondItem="T3d-Yp-IAQ" secondAttribute="height" id="eWt-Us-WLc"/>
@@ -120,6 +128,13 @@
                             <constraint firstItem="Sfc-Ac-mRX" firstAttribute="leading" secondItem="K3J-Yp-d5j" secondAttribute="trailing" constant="5" id="uCx-FE-q5I"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="searchTextField" destination="hZc-n0-JrG" id="kKM-t8-gmx"/>
+                        <outletCollection property="buttonList" destination="T3d-Yp-IAQ" collectionClass="NSMutableArray" id="gEh-z1-gYc"/>
+                        <outletCollection property="buttonList" destination="K3J-Yp-d5j" collectionClass="NSMutableArray" id="V20-e8-Ij1"/>
+                        <outletCollection property="buttonList" destination="Sfc-Ac-mRX" collectionClass="NSMutableArray" id="Yui-aj-dBj"/>
+                        <outletCollection property="buttonList" destination="uUe-2g-6ub" collectionClass="NSMutableArray" id="EVC-6V-PZE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -11,7 +11,7 @@ class LaunchViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        sleep(3)
+       
         // Do any additional setup after loading the view.
     }
     
